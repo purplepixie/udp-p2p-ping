@@ -32,7 +32,7 @@ public class Node {
             } catch(Exception e) { e.printStackTrace(); }
         }
 
-        public static String ByteToString(byte[] a)
+        public String ByteToString(byte[] a)
         {
         if (a == null)
             return null;
